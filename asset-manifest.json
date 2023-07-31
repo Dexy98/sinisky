@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.4b0feb33.css",
-    "main.js": "/cv/static/js/main.95005cfc.js",
-    "index.html": "/cv/index.html",
-    "main.4b0feb33.css.map": "/cv/static/css/main.4b0feb33.css.map",
-    "main.95005cfc.js.map": "/cv/static/js/main.95005cfc.js.map"
+    "main.css": "/sinisky/static/css/main.4b0feb33.css",
+    "main.js": "/sinisky/static/js/main.95005cfc.js",
+    "index.html": "/sinisky/index.html",
+    "main.4b0feb33.css.map": "/sinisky/static/css/main.4b0feb33.css.map",
+    "main.95005cfc.js.map": "/sinisky/static/js/main.95005cfc.js.map"
   },
   "entrypoints": [
     "static/css/main.4b0feb33.css",
