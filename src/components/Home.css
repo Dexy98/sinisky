@@ -1,0 +1,123 @@
+/* Home.css */
+
+.overlay {
+    position: relative;
+  }
+  
+  .overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 17, 38, 0.80);
+    z-index: 1;
+  }
+  
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .box-img {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .box-img > img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 25% 75%;
+  }
+  
+  .content {
+    margin: 100px 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 20;
+  }
+  .logo  {
+    width: 309.36px;
+    display: flex;
+  }
+  .logo img {
+    width: 309.36px;
+  }
+  
+  .nav-links a {
+    color: white;
+    font-weight: bold;
+    padding-left: 75px;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    transition: color 0.2s;
+  }
+  .links:hover{color: #2cb1bf;}
+  .links::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #2cb1bf;
+    position: absolute;
+    right: -5%;
+    bottom: -5px;
+    transition: width 0.42s cubic-bezier(.215, .61, .355, 1);
+}
+
+.change.links::before{
+    width: 60%;
+}
+.change.links{
+    color: white;
+}
+
+.links:hover::before{
+    width: 60%;
+}
+  
+  .title {
+    z-index: 10;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title h1 {
+    font-weight: bold;
+    font-size: 44px;
+    letter-spacing: 4.4px;
+    color: white;
+  }
+  
+  .title span {
+    color: #2cb1bf;
+  }
+  

@@ -1,10 +1,18 @@
 import "./App.css";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className=" text-[50px] font-bold">
-      <h1 >ciao</h1>
-      <p>prova</p>
+    <div className="">
+      <div>
+
+      <Home />
+      </div>
+    
+    <div>
+
+      <h1 className="   text-[50px]">app.js</h1>
+    </div>
     </div>
   );
 }
