@@ -5,7 +5,7 @@ import sfondo from "../assets/3.jpeg";
 const Section3 = () => {
   return (
     <div className="relative">
-      <img className="w-full  " src={sfondo} alt="" />
+      <img className="w-full h-screen " src={sfondo} alt="" />
       <h4 className="testo-hero3">
         Siamo consapevoli di quanto sia importante per voi avere un computer
         efficiente e funzionante, sia per il lavoro che per il tempo libero, e
