@@ -1,6 +1,6 @@
 import React from "react";
 import "./Section1.css";
-import prima from "../assets/1.jpeg";
+import prima from "../assets/1.png";
 
 const Section1 = () => {
   return (

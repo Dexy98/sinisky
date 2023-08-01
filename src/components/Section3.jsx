@@ -1,6 +1,6 @@
 import React from "react";
 import "./Section3.css";
-import sfondo from "../assets/3.jpeg";
+import sfondo from "../assets/3.png";
 
 const Section3 = () => {
   return (

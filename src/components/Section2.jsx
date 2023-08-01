@@ -1,6 +1,6 @@
 import React from "react";
 import "./Section2.css";
-import seconda from "../assets/2.jpeg";
+import seconda from "../assets/2.png";
 const Section2 = () => {
   return (
     <article className="section2">
