@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sinisky/static/css/main.b8894048.css",
-    "main.js": "/sinisky/static/js/main.d9ac15b3.js",
+    "main.css": "/sinisky/static/css/main.619dc7e1.css",
+    "main.js": "/sinisky/static/js/main.f22983ea.js",
     "static/media/sfondorid.png": "/sinisky/static/media/sfondorid.e35f5f7491411451357b.png",
     "static/media/1.png": "/sinisky/static/media/1.00d0bbe2d0bb41c74e67.png",
     "static/media/2.png": "/sinisky/static/media/2.3f47810b7f98a25e0fef.png",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/sinisky/static/media/logo.5ef5fd499d867b4cdbc6d94978603af2.svg",
     "static/media/scritta.svg": "/sinisky/static/media/scritta.6534fa64700bfb7b7a4d06f8f5dc1abd.svg",
     "index.html": "/sinisky/index.html",
-    "main.b8894048.css.map": "/sinisky/static/css/main.b8894048.css.map",
-    "main.d9ac15b3.js.map": "/sinisky/static/js/main.d9ac15b3.js.map"
+    "main.619dc7e1.css.map": "/sinisky/static/css/main.619dc7e1.css.map",
+    "main.f22983ea.js.map": "/sinisky/static/js/main.f22983ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8894048.css",
-    "static/js/main.d9ac15b3.js"
+    "static/css/main.619dc7e1.css",
+    "static/js/main.f22983ea.js"
   ]
 }
