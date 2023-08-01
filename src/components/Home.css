@@ -121,3 +121,32 @@
     color: #2cb1bf;
   }
   
+
+
+
+
+  
+@media (max-width: 1280px) {
+    .content {
+        margin: 50px 50px;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        margin: 50px 50px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        margin: 50px 50px;
+    }
+}
+
+@media (max-width: 640px) {
+ 
+}
+

@@ -1,18 +1,20 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
+import Section1 from "./components/Section1";
+import Section2 from "./components/Section2";
+import Section3 from "./components/Section3";
 
 function App() {
   return (
-    <div className="">
-      <div>
-
-      <Home />
-      </div>
-    
     <div>
+      <Home />
 
-      <h1 className="   text-[50px]">app.js</h1>
-    </div>
+        <Section1 />
+        <Section2 />
+        <Section3 />
+
+        <Footer />
     </div>
   );
 }
