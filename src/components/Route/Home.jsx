@@ -1,6 +1,6 @@
 
 import React from "react";
-import sfondo from "../../assets/sfondo.png";
+import sfondo from "../../assets/sfondorid.png";
 import "./Home.css";
 import Section1 from "../Section1";
 import Section2 from "../Section2";
