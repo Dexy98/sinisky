@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section4.css";
+import "./Styles/Section4.css";
 const Section4 = () => {
   return (
     <div className="section4">

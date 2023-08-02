@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section1.css";
+import "./Styles/Section1.css";
 import prima from "../assets/1.png";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 

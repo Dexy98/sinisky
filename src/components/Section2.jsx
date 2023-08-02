@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section2.css";
+import "./Styles/Section2.css";
 import seconda from "../assets/2.png";
 const Section2 = () => {
   return (
