@@ -22,12 +22,12 @@
   width: 309.36px;
 }
 
-.nav-links {
+.nav {
   display: flex;
   gap: 75px;
 }
 
-.nav-links > a {
+.nav > a {
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -36,11 +36,11 @@
   transition: color 0.2s;
 }
 
-.nav-links a:hover {
+.nav a:hover {
   color: #2cb1bf;
 }
 
-.nav-links a::before {
+.nav a::before {
   content: "";
   width: 0;
   height: 2px;
@@ -52,15 +52,15 @@
 
 }
 
-.nav-links a.change::before {
+.nav a.change::before {
   width: 100%;
 }
 
-.nav-links a.change {
+.nav a.change {
   color: white;
 }
 
-.nav-links a:hover::before {
+.nav a:hover::before {
   width: 100%;
 }
 
