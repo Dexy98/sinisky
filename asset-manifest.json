@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sinisky/static/css/main.92fdfb03.css",
+    "main.js": "/sinisky/static/js/main.be998bed.js",
+    "static/media/sfondorid.png": "/sinisky/static/media/sfondorid.e35f5f7491411451357b.png",
+    "static/media/1.png": "/sinisky/static/media/1.00d0bbe2d0bb41c74e67.png",
+    "static/media/2.png": "/sinisky/static/media/2.3f47810b7f98a25e0fef.png",
+    "static/media/3.png": "/sinisky/static/media/3.d01f1a8a0ec8fa16678e.png",
+    "static/media/logo.svg": "/sinisky/static/media/logo.5ef5fd499d867b4cdbc6d94978603af2.svg",
+    "static/media/scritta.svg": "/sinisky/static/media/scritta.6534fa64700bfb7b7a4d06f8f5dc1abd.svg",
+    "index.html": "/sinisky/index.html",
+    "main.92fdfb03.css.map": "/sinisky/static/css/main.92fdfb03.css.map",
+    "main.be998bed.js.map": "/sinisky/static/js/main.be998bed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92fdfb03.css",
+    "static/js/main.be998bed.js"
+  ]
+}
