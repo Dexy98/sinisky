@@ -1,13 +1,23 @@
 import React from "react";
 import "./Section1.css";
 import prima from "../assets/1.png";
+import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 const Section1 = () => {
+  const { scrollYProgress } = useViewportScroll();
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.8]); 
+
   return (
     <article className="section1">
       <div className="gradient1"></div>
       <div className="wrap-img1">
-        <img src={prima} alt="1" />
+        <motion.img
+          style={{
+            scale,
+          }}
+          src={prima}
+          alt="1"
+        />
       </div>
       <div className="testo-hero1">
         <h4>
