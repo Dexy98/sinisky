@@ -5,8 +5,11 @@ import Navbar from "../Navbar";
 const Service = () => {
   return (
     <div className="w-full h-screen bg-slate-900">
+      <div className="content">
+
       <Navbar />
-      ciao
+      </div>
+      <h1>Service</h1>
     </div>
   );
 };

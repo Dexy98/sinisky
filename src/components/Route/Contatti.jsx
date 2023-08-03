@@ -1,13 +1,15 @@
-import React from 'react'
-import Navbar from '../Navbar'
+import React from "react";
+import Navbar from "../Navbar";
 
 const Contatti = () => {
   return (
-    <div className='w-full h-screen bg-slate-900'>
+    <div className="w-full h-screen bg-slate-900">
       contatti
-      <Navbar/>
+      <div className="content">
+        <Navbar />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contatti
+export default Contatti;
