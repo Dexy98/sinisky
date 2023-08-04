@@ -58,19 +58,18 @@
     align-items: center;
     width: 100%;
     height: 100%;
+
+    & h1{
+      font-weight: bold;
+      font-size: 44px;
+      letter-spacing: 4.4px;
+      color: white;
+    }
+    & span {
+      color: #2cb1bf;
+
+    }
   }
-  
-  .title h1 {
-    font-weight: bold;
-    font-size: 44px;
-    letter-spacing: 4.4px;
-    color: white;
-  }
-  
-  .title span {
-    color: #2cb1bf;
-  }
-  
 
 
 
